@@ -25,8 +25,13 @@
                         <router-link class="nav-link" to="/website" >وب سایت</router-link>
                     </li>
 
-                    <li class="nav-item">
-                        <router-link class="nav-link" to="/" >خدمات</router-link>
+                    <li class="nav-item drpdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" >خدمات</a>
+                        <ul class="dropdown-menu">
+                            <li v-for="item in serviceItems" :key="item.id">
+                                <router-link class="dropdown-item text-center" :to="item.itemPath">{{item.itemName}}</router-link>
+                            </li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <router-link class="nav-link" to="/" >آکادمی</router-link>
@@ -53,7 +58,21 @@
 
 <script>
     export default {
-        name:"Navbar"
+        name:"Navbar",
+        data(){
+            return{
+                serviceItems:[
+                    {id:1, itemName:'طراحی سایت',itemPath:'/'},
+                    {id:1, itemName:'تبلیغات در گوگل ادوردز',itemPath:'/'},
+                    {id:1, itemName:'مشاوره کسب و کار',itemPath:'/'},
+                    {id:1, itemName:'افزایش رتبه سایت',itemPath:''},
+                    {id:1, itemName:'افزایش فروش اینترنتی',itemPath:'/'},
+                    {id:1, itemName:'پکیج انفجار فروش',itemPath:'/'},
+                    {id:1, itemName:'شرکت برندیگ',itemPath:'/'},
+                ]
+            }
+        }
+    
     }
 </script>
 
