@@ -10,7 +10,7 @@
                                     <router-link class="dropdown-item text-center" to="/basket">سبد خرید</router-link>
                                 </li>
                                 <li>
-                                    <router-link class="dropdown-item text-center" to="/aboutme">درباره من</router-link>
+                                    <router-link class="dropdown-item text-center" to="/aboutus">درباره من</router-link>
                                 </li>
                                 <li>
                                     <router-link class="dropdown-item text-center" to="/myskills">مهارت های من</router-link>
@@ -35,7 +35,7 @@
                         <router-link class="nav-link" to="/" >رتبه 1</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/" >تماس با ما</router-link>
+                        <router-link class="nav-link" to="/aboutus" >تماس با ما</router-link>
                     </li>
 
                     <li class="float-left mx-5">

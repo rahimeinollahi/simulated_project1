@@ -22,6 +22,12 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/WebsiteDesin.vue'),
     meta:{transition:'ts-website'}
   },
+  {
+    path: '/aboutus',
+    name: 'AboutUs',
+    component: () => import(/* webpackChunkName: "about" */ '../views/home/AboutUs.vue'),
+    meta:{transition:'ts-aboutus'}
+  },
 
 ]
 
