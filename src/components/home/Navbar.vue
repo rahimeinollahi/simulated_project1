@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="fixed-top">
         <div class="mt-2">
             <ul class="nav  ">
                 <li class="nav-item dropdown">
@@ -22,7 +22,7 @@
 
                 </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/" >وب سایت</router-link>
+                        <router-link class="nav-link" to="/website" >وب سایت</router-link>
                     </li>
 
                     <li class="nav-item">

@@ -2,7 +2,12 @@
   <div id="nav">
       <navbar />
   </div>
-  <router-view/>
+ <router-view v-slot="{ Component, route }">
+  <!-- Use any custom transition and fallback to `fade` -->
+  <transition :name="route.meta.transition || 'fade'">
+    <component :is="Component" />
+  </transition>
+</router-view>
 </template>
 
 <script>

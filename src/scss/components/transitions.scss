@@ -1,0 +1,21 @@
+.ts-website-enter-active,
+.ts-website-leave-active {
+  transition: all 0.5s ease;
+}
+
+.ts-website-enter-from,
+.ts-website-leave-to {
+  opacity: 0;
+  transform: translateY(50px);
+}
+//home
+.ts-home-enter-active,
+.ts-home-leave-active {
+  transition: all 0.5s ease;
+}
+
+.ts-home-enter-from,
+.ts-home-leave-to {
+  opacity: 0;
+  transform: translateY(50px);
+}
