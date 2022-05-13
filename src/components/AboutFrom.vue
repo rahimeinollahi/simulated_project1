@@ -46,11 +46,14 @@
 
             </div>
             <div class="col-sm-6">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d200996.77942159562!2d46.153641076808384!3d38.08028521066957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x401a05175b8429e1%3A0x59cb1dc6f21233fb!2sTabriz%2C%20East%20Azerbaijan%20Province%2C%20Iran!5e0!3m2!1sen!2sfr!4v1652378882983!5m2!1sen!2sfr" 
+                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d200996.77942159562!2d46.153641076808384!3d38.08028521066957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x401a05175b8429e1%3A0x59cb1dc6f21233fb!2sTabriz%2C%20East%20Azerbaijan%20Province%2C%20Iran!5e0!3m2!1sen!2sfr!4v1652378882983!5m2!1sen!2sfr" 
                 width="600" height="450" ُ
                 style="border:0;" allowfullscreen="" 
                 loading="lazy" 
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+               
+                    
+                        
             </div>
         </div>
         <div class="row mt-3 border p-3 border-end">

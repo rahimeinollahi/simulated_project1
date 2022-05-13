@@ -28,6 +28,13 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/home/AboutUs.vue'),
     meta:{transition:'ts-aboutus'}
   },
+  {
+    path: '/basket',
+    name: 'Basket',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Basket.vue'),
+    meta:{transition:'ts-basket'}
+  },
+ 
 
 ]
 
